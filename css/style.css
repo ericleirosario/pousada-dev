@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    width: 100%;    
+    background-color: #f3f3f3;
+    position: relative;
+    position: fixed;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;    
+    max-width: 1024px;
+    height: 60px;
+    margin: 0 auto;    
+}
+
+li {
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.links-topo {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;        
+}
+
+.links-topo:hover {    
+    color: #4693f8;        
+}
+span {
+    color: #4693f8;
+}
+
+#banner {
+    width: 100%;
+    background-image: url(../assets/img-fundo.jpg);
+    background-size: cover;
+    height: 630px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-banner {
+    width: 480px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+    text-align: center;
+
+    border: 1px solid #fff;
+    background: rgba(1, 179, 119, 0.596);
+}
+
+.box-banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 30px;    
+}
+
+.box-banner p {
+    font-size: 25px;    
+    color: #fff;
+}
+
+.content {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.content-pousada {
+    padding: 30px 0;
+}
+.content-info-quartos {
+    text-align: center;
+    padding: 30px 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+p {
+    line-height: 30px;
+}
+
+.content-quartos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.box-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 2px solid #007e39;
+}
+
+.img-quartos {
+    width: 320px;
+    padding: 10px 0;
+}
+
+.links-box-img {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    padding: 10px 0;    
+}
+
+.links-box-img:hover {
+    color: #007e39;    
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapa-info {
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px 0;
+}
+
+iframe {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.sobre-info {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.sobre-info-pousada {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.box-info-pousada {
+    display: flex;
+    width: 45%;
+    margin: 0 10px;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.descricao-box-pousada {
+    flex: 1 1 auto;
+}
+
+.descricao-box-pousada h3 {
+    font-size: 16px;
+}
+
+.descricao-box-pousada p {
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 20px;
+}
+
+.box-info-pousada img {
+    width: 100px;
+    height: 113px;
+    
+    margin-left:10px;
+}
+
+footer {
+    background-color: #007e39;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 0;
+    border-bottom: 2px solid #005024;
+}
+
+.box-contacts {
+    width: 22%;
+    display: flex;
+    align-items: center;
+}
+
+.box-contacts h4 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.img-contacts {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.links-contacts {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links-contacts:hover {
+    text-decoration: underline;
+}
+
+.copy {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+
+    padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        position: relative;
+    }
+
+    .topo {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .links li {
+        padding: 6px 0;
+    }
+    
+    .box-banner {
+        width: 95%;
+    }
+
+    .box-banner p {
+        font-size: 20px;
+    }
+
+    .content-quartos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 98%;
+    }
+
+    .sobre-info-pousada {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-info-pousada {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;        
+    }
+
+    .box-contacts {
+        width: 60%;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .content-quartos {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contacts {
+        display: flex;
+        flex-direction: column;        
+        width: 100%;                        
+    }
+
+    .box-contacts {
+        width: 50%;        
+        margin: 10px 0;        
+    }
+}

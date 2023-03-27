@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    width: 100%;    
+    background-color: #f3f3f3;
+    position: relative;
+    position: fixed;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;    
+    max-width: 1024px;
+    height: 60px;
+    margin: 0 auto;    
+}
+
+.links li {
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.links-topo {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;        
+}
+
+.links-topo:hover {    
+    color: #4693f8;        
+}
+span {
+    color: #4693f8;
+}
+
+#banner {
+    width: 100%;
+    background-image: url(../assets/img-fundo.jpg);
+    background-size: cover;
+    height: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.content-pousada {
+    padding: 30px 0;
+}
+.content-info-quartos {
+    text-align: center;
+    padding: 30px 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+p {
+    line-height: 30px;
+}
+
+.box-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;           
+}
+
+.img-quartos {
+    width: 336px;
+    height: 220px;    
+}
+
+h3 {
+    text-align: center;
+    padding-top: 20px;    
+}
+
+.lista-solteiro {
+    display: flex;
+    justify-content: space-between;    
+    flex-wrap: wrap;
+    padding: 20px 16px;
+}
+
+.lista-solteiro li {
+    width: 25%;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #007e39;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 0;
+    border-bottom: 2px solid #005024;
+}
+
+.box-contacts {
+    width: 22%;
+    display: flex;
+    align-items: center;
+}
+
+.box-contacts h4 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.img-contacts {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.links-contacts {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links-contacts:hover {
+    text-decoration: underline;
+}
+
+.copy {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+
+    padding: 10px;
+}
